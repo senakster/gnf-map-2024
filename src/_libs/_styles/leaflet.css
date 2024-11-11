@@ -1,0 +1,38 @@
+@import url('https://unpkg.com/leaflet@latest/dist/leaflet.css');
+
+.leaflet-container {
+    background-color: inherit;
+}
+.leaflet-touch .leaflet-bar {
+    span.mapControl {
+    display: block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 35px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    &:hover {
+        background-color: #f4f4f4;
+    }
+    }
+    span.mapControl:last-of-type {
+        border: none;
+    }
+
+}
+.leaflet-popup {
+    .leaflet-popup-content {
+        width: 50vw !important;
+        min-width: 250px;
+    }
+    .leaflet-popup-content-wrapper {
+        background: var(--background-color);
+        color: var(--text-color);
+    }
+    .leaflet-popup-tip {
+        background: var(--background-color);
+        color: var(--text-color);
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "app": {
+        "homepage": ".",
+        "version": "0.3.0",
+        "basename": "gnf-map",
+        "dataurl": "https://omstilmig.nu/public/gnfgrupper.json",
+        "dburl": "https://omstilmig.nu/gnf-groups/groups/list",
+        "RESTurl": "https://omstilmig.nu/API/group/api/v1"
+    },
+    "google": {
+        "gtag": "G-XMMKETRZDE"
+    },
+    "contact": {
+        "email": "info@gnf.green",
+        "facebook": "https://www.facebook.com/groennenabofaellesskaber",
+        "miyawaki": "https://www.facebook.com/miyawakiskovedk"
+    },
+    "map": {
+        "centerDefault": {
+            "lat": 56.3379289,
+            "lng": 5
+        },
+        "bounds": {
+            "Denmark": [
+                [
+                    58,
+                    6
+                ],
+                [
+                    
+                    54,
+                    15
+                ]
+            ]
+        },
+        "snaptobounds": {
+            "Denmark": [
+                [
+                    58,
+                    8
+                ],
+                [
+                    54,
+                    13
+                ]
+            ]
+        }
+    }
+}
